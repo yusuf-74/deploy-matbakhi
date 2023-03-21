@@ -14,7 +14,7 @@ from langchain.prompts.chat import (
     SystemMessagePromptTemplate,
     HumanMessagePromptTemplate,
 )
-loader = DirectoryLoader('/home/yusuf/Desktop/matbakhi/deploy-matbakhi/', glob='MatbakhiFeeding(1).txt')
+loader = DirectoryLoader('./', glob='MatbakhiFeeding(1).txt')
 documents = loader.load()
 text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
 texts = text_splitter.split_documents(documents)
