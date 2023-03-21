@@ -343,3 +343,295 @@ DEBUG:Chroma:Logger created
 DEBUG:Chroma:Index not found
 DEBUG:Chroma:Index saved to .chroma/index/index.bin
 DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/urls.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/urls.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/urls.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '911c-156-214-108-184.eu.ngrok.io'. You may need to add '911c-156-214-108-184.eu.ngrok.io' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '911c-156-214-108-184.eu.ngrok.io'. You may need to add '911c-156-214-108-184.eu.ngrok.io' to ALLOWED_HOSTS.
+WARNING:django.request:Bad Request: /whatsapp
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/matbakhi_bot/settings.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+ERROR:django.request:Internal Server Error: /whatsapp
+Traceback (most recent call last):
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 911c-156-214-108-184.eu.ngrok.io/whatsapp/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /whatsapp/
+WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /whatsapp/
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/matbakhi_bot/settings.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+ERROR:django.request:Internal Server Error: /whatsapp/
+Traceback (most recent call last):
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py", line 13, in post
+    send_message(request.POST.get('from'), 'I am not able to answer your question right now, please try again later.')
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/twilio_api.py", line 11, in send_message
+    _ = client.messages.create(
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 103, in create
+    payload = self._version.create(method='POST', uri=self._uri, data=data, )
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/twilio/base/version.py", line 205, in create
+    raise self.exception(method, uri, response, 'Unable to create record')
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC16a7a470c3b50c8f75f848025c75b117/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: A 'To' phone number is required.[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21604[0m
+
+
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+ERROR:django.request:Internal Server Error: /whatsapp/
+Traceback (most recent call last):
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/middleware/clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'int' object has no attribute 'get'
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+ERROR:django.request:Internal Server Error: /whatsapp/
+Traceback (most recent call last):
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/middleware/clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'int' object has no attribute 'get'
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+ERROR:django.request:Internal Server Error: /whatsapp/
+Traceback (most recent call last):
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/middleware/clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'int' object has no attribute 'get'
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/matbakhi_bot/settings.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+ERROR:django.request:Internal Server Error: /whatsapp/
+Traceback (most recent call last):
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'int'>`
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+ERROR:django.request:Internal Server Error: /whatsapp/
+Traceback (most recent call last):
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/.venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py", line 15, in post
+    return Response(status=status.HTTP_200_OK)
+NameError: name 'Res' is not defined
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:time to pre process our knn query: 1.430511474609375e-06
+DEBUG:Chroma:time to run knn query: 0.00013303756713867188
+DEBUG:Chroma:time to pre process our knn query: 1.1920928955078125e-06
+DEBUG:Chroma:time to run knn query: 0.00022673606872558594
+DEBUG:Chroma:time to pre process our knn query: 1.430511474609375e-06
+DEBUG:Chroma:time to run knn query: 0.00013589859008789062
+INFO:django.utils.autoreload:/home/yusuf/Desktop/matbakhi/deploy-matbakhi/twilio_app/views.py changed, reloading.
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin

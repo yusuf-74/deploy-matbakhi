@@ -1,10 +1,8 @@
-import os
 from twilio.rest import Client
-from dotenv import load_dotenv
-load_dotenv()
+from decouple import config
 
-account_sid = os.getenv('TWILIO_ACCOUNT_SID')
-auth_token = os.getenv('TWILIO_AUTH_TOKEN')
+account_sid = config('TWILIO_ACCOUNT_SID')
+auth_token = config('TWILIO_AUTH_TOKEN')
 
 client = Client(account_sid, auth_token)
 

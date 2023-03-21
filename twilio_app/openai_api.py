@@ -1,23 +1,20 @@
-import openai
 import os
-from dotenv import load_dotenv
-load_dotenv()
+from decouple import config
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
+os.environ["OPENAI_API_KEY"] = config('OPENAI_API_KEY')
 
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.document_loaders import DirectoryLoader
 from langchain.chains import VectorDBQAWithSourcesChain
-from langchain import OpenAI
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts.chat import (
     ChatPromptTemplate,
     SystemMessagePromptTemplate,
     HumanMessagePromptTemplate,
 )
-loader = DirectoryLoader('/home/yaaa3ser/Desktop/YouTube-WhatsApp-OpenAI/', glob='MatbakhiFeeding(1).txt')
+loader = DirectoryLoader('/home/yusuf/Desktop/matbakhi/deploy-matbakhi/', glob='MatbakhiFeeding(1).txt')
 documents = loader.load()
 text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
 texts = text_splitter.split_documents(documents)
@@ -47,7 +44,7 @@ chain = VectorDBQAWithSourcesChain.from_chain_type(
     vectorstore=docsearch,
     chain_type_kwargs=chain_type_kwargs
 )
- 
+
 def text_complition(question: str) -> dict:
     try:
         response = chain({ 'question': question })
