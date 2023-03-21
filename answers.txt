@@ -1,0 +1,55 @@
+----
+You asked: 
+سعر البيبسي
+
+The chatbot answered: 
+سعر بيبسي في مطعم مطبخي هو 6 ريال سعودي.
+---------
+----
+You asked: 
+سعر الايس كريم
+
+The chatbot answered: 
+لم يتم ذكر سعر الآيس كريم في النص المذكور.
+---------
+----
+You asked: 
+price of pepsi
+
+The chatbot answered: 
+The price of Pepsi at Matbakhi restaurant is 6.0 SR.
+---------
+----
+You asked: 
+سعر البطاطا المقلية
+
+The chatbot answered: 
+لا يوجد سعر محدد للبطاطا المقلية في مطعم Matbakhi، حيث يتم تقديمها كجزء من عدة وجبات مختلفة وتختلف أسعارها بناءً على الوجبة التي تم طلبها. يمكن الاطلاع على الأسعار المحددة لكل وجبة في القائمة المتاحة في المطعم.
+---------
+----
+You asked: 
+Juices available and their prices
+
+The chatbot answered: 
+Here are the available juices and their prices at Matbakhi restaurant:
+
+- Orange juice: 14.0 SR
+- Mango juice: 16.0 SR
+- Pomegranate juice: 16.0 SR
+
+They also offer soft drinks such as Pepsi, Mirinda Citrus, 7 Up, Diet Pepsi, Mirinda, and water. The prices for soft drinks are 6.0 SR for each and 3.0 SR for water.
+---------
+----
+You asked: 
+سعر ميل كريم 16 والنكهات المتوفرة
+
+The chatbot answered: 
+عذرًا ، لم يتم ذكر سعر ميل كريم 16 في النص المقدم. ومن الناحية النكهات المتوفرة ، يمكنك الاختيار من بين النكهات التالية: الأصلي ، نوتيلا ، عدني ون مور ، وتوت.
+---------
+----
+You asked: 
+اماكن فروع مطبخي
+
+The chatbot answered: 
+ليس لدي معلومات حول مواقع فروع مطبخي، ولكن يمكنك البحث عنها عبر محركات البحث أو الاتصال بالمطعم مباشرة للحصول على المعلومات المحدثة.
+---------
