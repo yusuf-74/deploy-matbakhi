@@ -17,7 +17,7 @@ cmake==3.26.0
 commonmark==0.9.1
 dataclasses-json==0.5.7
 Deprecated==1.2.13
-Django==4.1.7
+Django
 django-extensions==3.2.1
 djangorestframework==3.14.0
 duckdb==0.7.1
